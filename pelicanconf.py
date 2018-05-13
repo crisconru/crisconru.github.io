@@ -30,8 +30,8 @@ SITETITLE = "Crisconru's Home"
 SITESUBTITLE = "Bienvenido al rincon de Klin"
 SITELOGO = '/images/klins.png'
 MAIN_MENU = True
-LINKS = (('Hacklab Almeria', 'http://hacklabalmeria.net/'),
-         ('Pymiento Project', 'http://thepymientoproject.com/'),)
+# LINKS = (('Hacklab Almeria', 'http://hacklabalmeria.net/'),
+#         ('Pymiento Project', 'http://thepymientoproject.com/'),)
 SOCIAL = (('twitter', 'https://twitter.com/crisconru'),
           ('github', 'https://github.com/crisconru/'),
           ('linkedin', 'https://www.linkedin.com/in/cristobalcontrerasrubio'),)
