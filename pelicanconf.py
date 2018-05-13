@@ -37,8 +37,7 @@ THEME = 'Flex'
 # Flex configuration
 SITETITLE = "Crisconru's Home"
 SITESUBTITLE = "Bienvenido al rincon de Klin"
-STATIC_PATHS = ['res']
-SITELOGO = '/res/klins.png'
+SITELOGO = '/images/klins.png'
 MAIN_MENU = True
 LINKS = (('Hacklab Almeria', 'http://hacklabalmeria.net/'),
          ('Pymiento Project', 'http://thepymientoproject.com/'),)
