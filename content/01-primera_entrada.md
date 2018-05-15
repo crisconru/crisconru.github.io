@@ -1,6 +1,7 @@
 Title: ¡Hola mundo!
 Date: 2018-05-15 16:35
 Category: Sobre el blog
+Author: Cristóbal Contreras Rubio
 
 Jelou pipol,  
 
