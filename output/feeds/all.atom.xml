@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Klin's</title><link href="/" rel="alternate"></link><link href="/feeds/all.atom.xml" rel="self"></link><id>/</id><updated>2018-05-15T16:35:00+02:00</updated><entry><title>¡Hola mundo!</title><link href="/hola-mundo.html" rel="alternate"></link><published>2018-05-15T16:35:00+02:00</published><updated>2018-05-15T16:35:00+02:00</updated><author><name>Cristobal Contreras</name></author><id>tag:None,2018-05-15:/hola-mundo.html</id><summary type="html">&lt;p&gt;Jelou pipol,  &lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Klin's</title><link href="https://crisconru.github.io/" rel="alternate"></link><link href="https://crisconru.github.io/feeds/all.atom.xml" rel="self"></link><id>https://crisconru.github.io/</id><updated>2018-05-15T16:35:00+02:00</updated><entry><title>¡Hola mundo!</title><link href="https://crisconru.github.io/hola-mundo.html" rel="alternate"></link><published>2018-05-15T16:35:00+02:00</published><updated>2018-05-15T16:35:00+02:00</updated><author><name>Cristobal Contreras</name></author><id>tag:crisconru.github.io,2018-05-15:/hola-mundo.html</id><summary type="html">&lt;p&gt;Jelou pipol,  &lt;/p&gt;
 &lt;p&gt;esta es la primera entrada de mi rinconcito web. ¿Que va a haber aquí? No lo sé
 la verdad, porque soy una persona bastante dispersa (me gustan muchas cosas y
 suelo hablar mucho).  &lt;/p&gt;
@@ -13,4 +13,4 @@ y quizás cree un &lt;strong&gt;&lt;em&gt;Proyectos&lt;/em&gt;&lt;/strong&gt;. P
 en el blog, que para algo lo he hecho.  &lt;/p&gt;
 &lt;p&gt;Así que mis disculpas si navegas en esta web y te encuentras todo hecho
 un desastre.  &lt;/p&gt;
-&lt;p&gt;Gracias por perder tu tiempo  aquí ;-)&lt;/p&gt;</content></entry></feed>
+&lt;p&gt;Gracias por dedicarme tu tiempo ;-)&lt;/p&gt;</content></entry></feed>
