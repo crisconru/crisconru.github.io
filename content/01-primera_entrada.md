@@ -15,4 +15,4 @@ en el blog, que para algo lo he hecho.
 Así que mis disculpas si navegas en esta web y te encuentras todo hecho
 un desastre.  
 
-Gracias por perder tu tiempo  aquí ;-)
+Gracias por dedicarme tu tiempo ;-)
