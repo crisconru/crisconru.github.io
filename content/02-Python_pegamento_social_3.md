@@ -79,7 +79,7 @@ Diego como los conoce, y lleva ya tiempo con ellos, también les daba sesiones p
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 
-### ALEA JACTA EST
+### LLEGADA A LA JAMTODAY
 Y llegó el día D hora H. El evento está estructurado de la siguiente manera:
 
 - Viernes para charlas, talleres y publicación de la temática social del reto.
@@ -87,13 +87,29 @@ Y llegó el día D hora H. El evento está estructurado de la siguiente manera:
 - Domingo por la tarde para decisión del jurado, presentación de los juegos y resultados del evento.
 
 
-Así que el viernes 4 de Mayo por la tarde estamos en el centro [IES Al-Andalus](https://iesalandalus.org/). Recogemos el pack de bienvenida y tenemos una charla motivacional bastante buena en el salón de actos.  
+Así que el viernes 4 de Mayo por la tarde estamos en el centro [IES Al-Andalus](https://iesalandalus.org/). Recogemos el pack de bienvenida y tenemos una charla motivacional bastante buena en el salón de actos. Estamos motivados, muy contentos y con ganas de empezar ;-) 
 
 <center><blockquote class="twitter-tweet" data-lang="es"><p lang="es" dir="ltr">El premio de Python de la <a href="https://twitter.com/hashtag/JamTodayAl3?src=hash&amp;ref_src=twsrc%5Etfw">#JamTodayAl3</a> ya tiene dueño, y se llama <a href="https://twitter.com/hashtag/PythonJuniorSorbas?src=hash&amp;ref_src=twsrc%5Etfw">#PythonJuniorSorbas</a> <a href="https://t.co/y2QO8dFATn">pic.twitter.com/y2QO8dFATn</a></p>&mdash; CristoContrerasRubio (@CrisConRu) <a href="https://twitter.com/CrisConRu/status/992435626174812161?ref_src=twsrc%5Etfw">4 de mayo de 2018</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 
-Luego nos explican la temática de la competición **ADICCIONES DIGITALES** ¿Me quiere alguien explicar como se puede resolver esta patología con un videojuego? Pues nada, a darle al coco...  
+Se suelta por fin la bomba. La temática de la competición son las **ADICCIONES DIGITALES** ¿Me quiere alguien explicar como se puede resolver esta patología con un videojuego? ¿Como curas a un alcohólico con un cubata? Pues nada, a darle al coco...  
 
-Nos vamos a seguir con los talleres mientras no paramos de cabilar que podríamos hacer.
+Nos vamos a seguir con el taller de Python, que curiosamente imparte Diego y curiosamente está basado en la temática que hemos seguido durante este tiempo XD. Lo tomamos como una buena oportunidad para repasar, y las personas que acuden también salen satisfechas. 
 
+Antes de se vayan para el pueblo, hablamos sobre que se nos ha ido ocurriendo. La idea que se les ocurre es, y lo pongo con palabras textuales de ellos **¡¡¡PARENTAL ADVISORY: EXPLICIT CONTENT!!!**:
+
+<center><b><i>"Hacer un juego que una vez que lo instales, solo se pueda jugar a él, y sea tan mierda que te aburras y no quieras jugar más"</i></b></center>
+
+Bueno... Tenemos una noche para darle una repensada...
+
+### NOS PARAMOS A PENSAR
+El sábado llega mi equipo a las 9am a la competición, y digo mi equipo porque yo tengo un compromiso esa mañana y no puedo llegar hasta las 1pm (si señor, encima que llegamos poco preparados, el coordinador del equipo se pierde 1/3 del hacking, ole tus cataplines Cristo). Al llegar al aula donde estaban, me los encuentro trabajando, un poco desperdigados, fundiendo todas las bolsas de patatas y refrescos que hay puestas por parte de la organización (para que el currele sea más llevadero). Decido que quiero una reunión con ellos para ponernos al día, y en el aula no podemos por la cantidad de ruido que hay (tres equipos de chavales en un aula... de 120dB para arriba). Encuentro que el lugar más tranquilo es la entrada del edificio, techado y aunque está en el paso y todo el mundo nos ve, no hay bullicio.  
+
+*As I supposed*, estaban currando sin haber hecho una reflexión previa ¿Que estaban haciendo? Pues un videojuego 2D plataformas (como el que habían "aprendido" a hacer) donde el prota trataba de superar niveles que reflejaban adicciones digitales... Algo tan previsible, que estaban haciendo tan pocos equipos (el 99,9% de los que estaban allí), y que tan poco se ceñía a la temática, que había que darle una repensada. Viendo el percal, les pido que nos sentemos en círculo, mirándonos las caras (de esta manera prácticamente todos somos iguales, lo cual hace una convesación "más democrática"). Queridos míos, vamos a parar entre tanta prisa, y darle al coco (que poco hacemos esto).
+
+Empiezo a razonar con ellos que lo que pretendemos no es hacer un videojuego, es curar a alguien. Retomo la idea de ayer, el **"virus informático"** que es tan malo que te hace querer dejar de jugar. Como veo que no reaccionan, empiezo a concienciar con el problema de las adicciones digitales a través de la empatía:  
+
+- A ver equipo, imaginad que Sami está en la uni ¿vale?
+- Jajaja este es muy burro, a ver si aprueba el bachiller primero.
+- ... Claro que lo va a aprobar si se lo propone ¿OK? (mirada a los ojos de Sami tratando de convencerlo) Imaginad que Sami se va de Erasmus a Italia, Roma por ejemplo. Y resulta que se engancha a jugar al Candy Crush
