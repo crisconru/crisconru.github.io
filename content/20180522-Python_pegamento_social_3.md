@@ -1,6 +1,6 @@
 Title: Python como pegamento social - Parte 3  
-Date: 2018-05-15 22:22  
-Modified: 2018-05-15 22:22  
+Date: 2018-05-22 14:58  
+Modified: 2018-05-22 14:58  
 Category: Experiencias  
 Tags: python, jamtoday, gestión de equipos  
 Author: Cristóbal Contreras Rubio  
@@ -10,7 +10,7 @@ Esta historia narra como [Python](https://python.org), un lenguaje de programaci
 
 Todo comienza con una visita a una pareja de amigos, [Laura Cáceres](https://twitter.com/laucabel) y [Diego Martínez](https://twitter.com/guadatech). Ellos dos, junto a su compañero [Juan Manuel Sánchez](https://twitter.com/jmsafe), trabajan en los centros Guadalinfo de sus pueblos, enseñando tecnologías Open Source. Y como el entorno rural no se ciñe sólo a sus casas, crearon la asociación [Guadatech](https://guadatech.com) para poder llevar esa pasión que tienen por toda la provincia de Almería. **La labor que hacen es encomiable** y **siento una gran admiración por ellos y su trabajo**.
 
-<img src="images/01-Laura_Diego_Juanma.jpeg" align="middle" alt="Laura, Diego y Juanma conmigo en mitad del campo">
+<img src="images/20180522-Laura_Diego_Juanma.jpeg" align="middle" alt="Laura, Diego y Juanma conmigo en mitad del campo">
 
 El caso es que hablando con Diego, me comentó que a Juanma y a él se les *había calentado el hocico*, y estaban preparando llevar varios equipos del Guadalinfo a la [JamToday](http://www.jamtodayalmeria.com/) (un hackaton sobre videojuegos con temática social). Normalmente, Diego enseña [Scratch](https://scratch.mit.edu/) (otro lenguaje más simple que Python) a los niños para empezar, pero uno de los equipos de su pueblo, Sorbas, lo quería llevar en la categoría de Python. ¿Y qué problema hay entonces? Pues que para la competición quedaban escasamente seis semanas, el equipo estaba formando en su mayoría por menores que nunca habían aprendido Python (no es un lenguaje complejo, pero 6 semanas es muy poco) y los chavales no estaban del todo motivados. Encantado le ofrecí mi mano y Diego tomó mi brazo (cosa que agradezco).  
 
@@ -127,7 +127,7 @@ Empiezo a razonar con ellos que lo que pretendemos no es hacer un videojuego, es
 
 Durante esta conversación, tuvimos la suerte de que una chica de la organización se acercó y pudimos validar nuestro modelo conceptual. Nuestra observadora externa era [Azahara G. Peralta](https://twitter.com/AzaharaTIC), le gustó mucho la idea y además introdujo en los chicos conceptos como la cooperatividad en los videojuegos. Fue un gran aporte porque empezaron a pensar que los retos también podían cumplirse con amigos, motivando a que el juego evolucionase en algo social.
 
-<img src="images/01-conclave.jpg" align="middle" alt="El equipo juntoa Azahara, hablando sobre que pensabamos hacer">
+<img src="images/20180522-conclave.jpg" align="middle" alt="El equipo juntoa Azahara, hablando sobre que pensabamos hacer">
 
 Resumiendo, **ibamos a hacer un control parental gamificado**, que **traducido a** las palabras de **ellos** era "un **bicho virtual que vive en tu móvil y te ayuda a que no lo uses tanto**". El bicho se acabó llamando **Tilan** ¿por qu´? **Porque la tila relaja, pero no suena chulo**. Así pues nuestro tamagochi se iba a poner en contacto con nosotros a través de notificaciones. Si cumplías sus retos lo mantenías vivo y después de un mes evolucionaba. Si pasabas de él acabaría muriendo... **¡¡¡TENEMOS UN CABALLO GANADOR!!!**
 
@@ -158,7 +158,7 @@ Antes comentaba que el mayor acierto fue traerme el huevo-temporizador y usar el
 
 Hasta se nos unieron el equipo de Scratch de Sorbas en el 50-10. No se si esto tiene que ver con que parece que distrutaban más peleándose por la consola, que jugando con ella XD. Esto de no ir en ratos distintos para jugar todos, puteandillo así al vecino, me pareció "demasiado español". Incluso en una trifulca por la consola un chico le partió la nariz a otro y estuvo 10min sangrando. Y allí me encontraba yo, socorriendo al herido y luego haciendo que hicieran las paces. Las prácticas de paternidad venían incluidas en el pack sin que me diera cuenta...
 
-<img src="images/01-consoleo.png" aling="middle" alt="Los chavales jugando a las consolas en el descando">
+<img src="images/20180522-consoleo.png" aling="middle" alt="Los chavales jugando a las consolas en el descando">
 
 Por último, y sabiendo que no podíamos dar un juego como entregable, Eve hizo un video con la presentación realizada en Presentator, metiendo los audios, música y fx de los demás. Así que tocaba meterle mano a herramientas nuevas. Llevé a Eve a que conociese a mi amigo [Miguel Ángel](https://twitter.com/MiguelAngel_LV), porque sabía que él nos podría recomendar y enseñar a usar los programas que necesitabamos. Usamos [OBS](https://obsproject.com/es) para grabar el monitor y [KdenLive](https://kdenlive.org/en/) para la edición de video. Fue fascinante ver como una chica de 3º de la ESO, que no había usado nunca estas herramientas, se hacía con ellas en un santiamen y ahí estaba, editando video como si fuera una experta.
 
@@ -215,7 +215,7 @@ Todo esto implica muchas cosas, por ejemplo, acabar ejerciendo de psicólogo de 
 
 No se si algún día estaré coordinando equipos en una empresa o no. Pero mientras haya huecos donde pueda probarme en distintas facetas, no me voy a quedar quieto esperando que me caiga la oportunidad del cielo. Me da igual que todas estas experiencias nos las valore ningun recruiter, ni tengan un badget en Linkedin. Fue todo muy intenso, acabé muerto, pero no pararé de meterme en todas estas movidas. Lo que de verdad me importa es que a la mañana siguiente me levanto sintiendo que soy mejor persona, esa es mi gasolina.  
 
-<img src="images/01-klin_pensador.jpg" align="middle" alt="Foto de postureo, sentado en el suelo escuchando a mis compis">
+<img src="images/20180522-klin_pensador.jpg" align="middle" alt="Foto de postureo, sentado en el suelo escuchando a mis compis">
 
 PD: El proyecto en Presentator.io lo tienes [aquí](https://app.presentator.io/es/fMjUSc7z?v=0&s=1&m=preview
 ), y el vídeo de la presentación lo tienes más abajo.
