@@ -1,6 +1,6 @@
 Title: Python como pegamento social - Parte 3  
 Date: 2018-05-22 14:58  
-Modified: 2018-05-24 23:02  
+Modified: 2018-06-12 18:55  
 Category: Experiencias  
 Tags: python, jamtoday, gestión de equipos  
 Author: Cristóbal Contreras Rubio  
@@ -215,7 +215,7 @@ Mi amigo Adolfo resumió muy bien en este tweet, algo que no creo que venga en l
 
 Todo **esto implica muchas cosas, como acabar ejerciendo de psicólogo de cada uno**, de mediador entre todos. En una de estas sesiones de terapia, **descubrí que los dos adolescentes de mi grupo** se sentían satisfechos porque "***hemos aprendido más en dos días, que en todos nuestros años en el instituto***", y **les iba mal en los estudios porque no congeniaban con sus profes**. Lo fácil aquí sería dármelas de listo, creyendo que he descubierto la penicilina de la gestión y educación en jóvenes. En lugar de eso, tuvimos una grata conversación donde **me explicaban por qué chocaban con sus profes y por qué no les gustaba lo que aprendían**. Se podría resumir en que las formas importan, para todo, incluso para plantear un temario. **Resultó complejo explicarles que todas esas cosas que estaban dando, tendrían aporte en sus vidas**, y lo ejemplificaba con videojuegos "***La física y las mates son básicas en la programación si quieres que el muñeco salte, o se mueva. Sin la filosofía, historia, lengua, no existirían los [Assassin's Creed](https://es.wikipedia.org/wiki/Assassin%27s_Creed) o [Corazón de Melón](http://www.corazondemelon.es/) (el juego que le gusta a Eve)***". No diré que los convenciese del todo, pero que empezaron a mirar de manera distinta su "trabajo", eso si. Es probable y seguro que **muchos profesores, o la educación reglada en general, deberían de hacer ciertas reflexiones y reciclaje en diversos aspectos. Pero** también pienso que **coordinar un aula masificada de 30 críos, a 8h/día 7días/semana, no se lo desearía ni a mi peor enemigo** (difícilmente llegaría vivo al Miércoles en la primera semana).
 
-No se si algún día estaré coordinando equipos en una empresa o no. Pero mientras haya huecos donde pueda probarme en distintas facetas, no me voy a quedar quieto esperando que me caiga la oportunidad del cielo. Me da igual que todas estas experiencias nos las valore ningún recruiter, ni tengan un badget en Linkedin. Fue todo muy intenso, acabé muerto, pero no pararé de meterme en todas estas movidas. **Lo que de verdad me importa es que a la mañana siguiente me levanto sintiendo que soy mejor persona, esa es mi gasolina**.  
+No se si algún día estaré coordinando equipos en una empresa o no. Pero mientras haya huecos donde pueda probarme en distintas facetas, no me voy a quedar quieto esperando que me caiga la oportunidad del cielo. Me da igual que todas estas experiencias no las valore ningún recruiter, ni tengan un badget en Linkedin. Fue todo muy intenso, acabé muerto, pero no pararé de meterme en todas estas movidas. **Lo que de verdad me importa es que a la mañana siguiente me levanto sintiendo que soy mejor persona, esa es mi gasolina**.  
 
 <img src="images/20180522-klin_pensador.jpg" align="middle" alt="Foto de postureo, sentado en el suelo escuchando a mis compis">
 
