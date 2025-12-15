@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-bg: 255 255 255;
+    --color-text: 15 23 42;
+    --color-text-muted: 100 116 139;
+    --color-surface: 248 250 252;
+    --color-border: 226 232 240;
+  }
+
+  .dark {
+    --color-bg: 15 23 42;
+    --color-text: 248 250 252;
+    --color-text-muted: 148 163 184;
+    --color-surface: 30 41 59;
+    --color-border: 51 65 85;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-[rgb(var(--color-bg))] text-[rgb(var(--color-text))] font-sans antialiased;
+    @apply transition-colors duration-300;
+  }
+
+  /* Focus visible for a11y */
+  :focus-visible {
+    @apply outline-2 outline-offset-2 outline-primary-500;
+  }
+
+  /* Better contrast links */
+  a {
+    @apply text-primary-600 dark:text-primary-400 hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-500 focus-visible:ring-offset-2;
+  }
+}
+
+@layer components {
+  .nav-link {
+    @apply px-3 py-2 text-sm font-medium rounded-lg;
+    @apply text-[rgb(var(--color-text-muted))] hover:text-[rgb(var(--color-text))];
+    @apply hover:bg-[rgb(var(--color-surface))] transition-colors;
+    @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-500;
+  }
+
+  .nav-link.active {
+    @apply text-primary-600 dark:text-primary-400 bg-primary-50 dark:bg-primary-950/50;
+  }
+
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 px-4 py-2 rounded-lg font-medium;
+    @apply transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2;
+  }
+
+  .btn-primary {
+    @apply btn bg-primary-600 text-white hover:bg-primary-700;
+    @apply focus-visible:ring-primary-500;
+  }
+
+  .btn-secondary {
+    @apply btn bg-[rgb(var(--color-surface))] text-[rgb(var(--color-text))];
+    @apply border border-[rgb(var(--color-border))] hover:bg-[rgb(var(--color-border))];
+    @apply focus-visible:ring-primary-500;
+  }
+
+  .section {
+    @apply py-16 md:py-24;
+  }
+
+  .container {
+    @apply max-w-5xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+}

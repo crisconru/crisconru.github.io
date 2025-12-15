@@ -1,0 +1,55 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Hero from '../components/Hero.astro';
+---
+
+<Layout title="Inicio">
+  <Hero
+    title="Hola, soy Cristóbal"
+    subtitle="Desarrollador Frontend apasionado por crear experiencias web accesibles, performantes y con buen diseño."
+    showCTA
+  />
+
+  <section class="section bg-[rgb(var(--color-surface))]">
+    <div class="container">
+      <div class="max-w-3xl mx-auto">
+        <h2 class="text-2xl sm:text-3xl font-bold mb-6 text-center">Lo que hago</h2>
+
+        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div class="p-6 bg-[rgb(var(--color-bg))] rounded-xl border border-[rgb(var(--color-border))]">
+            <h3 class="font-semibold mb-2">Desarrollo Frontend</h3>
+            <p class="text-sm text-[rgb(var(--color-text-muted))]">
+              React, Vue, Astro, TypeScript y todo lo necesario para crear interfaces modernas.
+            </p>
+          </div>
+
+          <div class="p-6 bg-[rgb(var(--color-bg))] rounded-xl border border-[rgb(var(--color-border))]">
+            <h3 class="font-semibold mb-2">Accesibilidad</h3>
+            <p class="text-sm text-[rgb(var(--color-text-muted))]">
+              Webs que funcionan para todos, siguiendo estándares WCAG y mejores prácticas.
+            </p>
+          </div>
+
+          <div class="p-6 bg-[rgb(var(--color-bg))] rounded-xl border border-[rgb(var(--color-border))] sm:col-span-2 lg:col-span-1">
+            <h3 class="font-semibold mb-2">Formación</h3>
+            <p class="text-sm text-[rgb(var(--color-text-muted))]">
+              Comparto conocimiento a través de charlas, cursos y contenido técnico.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="max-w-2xl mx-auto text-center">
+        <h2 class="text-2xl sm:text-3xl font-bold mb-6">Trabajemos juntos</h2>
+        <p class="text-[rgb(var(--color-text-muted))] mb-8">
+          Si tienes un proyecto en mente o simplemente quieres charlar sobre tecnología, estaré encantado de escucharte.
+        </p>
+        <a href="/contact" class="btn-primary">Contactar</a>
+      </div>
+    </div>
+  </section>
+</Layout>

@@ -1,0 +1,86 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { Icon } from 'astro-icon/components';
+
+const socialLinks = [
+  {
+    href: 'https://github.com/crisconru',
+    label: 'GitHub',
+    icon: 'lucide:github',
+    username: '@crisconru',
+  },
+  {
+    href: 'https://linkedin.com/in/crisconru',
+    label: 'LinkedIn',
+    icon: 'lucide:linkedin',
+    username: 'crisconru',
+  },
+  {
+    href: 'https://twitter.com/crisconru',
+    label: 'Twitter',
+    icon: 'lucide:twitter',
+    username: '@crisconru',
+  },
+];
+
+const email = 'crisconru@example.com';
+---
+
+<Layout title="Contacto" description="Ponte en contacto con Cristóbal Contreras Rubio.">
+  <section class="section">
+    <div class="container">
+      <div class="max-w-3xl mx-auto">
+        <h1 class="text-4xl sm:text-5xl font-bold mb-4 text-center">Contacto</h1>
+        <p class="text-lg text-[rgb(var(--color-text-muted))] mb-12 text-center">
+          ¿Tienes un proyecto en mente? ¡Hablemos!
+        </p>
+
+        <div class="grid gap-8 md:grid-cols-2">
+          <!-- Email -->
+          <div class="p-8 bg-[rgb(var(--color-surface))] rounded-xl border border-[rgb(var(--color-border))] text-center">
+            <Icon name="lucide:mail" class="w-10 h-10 mx-auto mb-4 text-primary-500" />
+            <h2 class="font-semibold text-lg mb-2">Email</h2>
+            <a
+              href={`mailto:${email}`}
+              class="text-primary-600 dark:text-primary-400 hover:underline break-all"
+            >
+              {email}
+            </a>
+          </div>
+
+          <!-- Redes sociales -->
+          <div class="p-8 bg-[rgb(var(--color-surface))] rounded-xl border border-[rgb(var(--color-border))]">
+            <h2 class="font-semibold text-lg mb-6 text-center">Redes sociales</h2>
+            <div class="space-y-4">
+              {
+                socialLinks.map((link) => (
+                  <a
+                    href={link.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="flex items-center gap-3 p-3 rounded-lg hover:bg-[rgb(var(--color-bg))] transition-colors group"
+                  >
+                    <Icon
+                      name={link.icon}
+                      class="w-6 h-6 text-[rgb(var(--color-text-muted))] group-hover:text-primary-500"
+                    />
+                    <div>
+                      <span class="font-medium">{link.label}</span>
+                      <span class="text-sm text-[rgb(var(--color-text-muted))] ml-2">{link.username}</span>
+                    </div>
+                  </a>
+                ))
+              }
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-12 text-center">
+          <p class="text-[rgb(var(--color-text-muted))]">
+            Respondo todos los mensajes en un plazo de 24-48 horas.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+</Layout>

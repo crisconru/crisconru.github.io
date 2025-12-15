@@ -1,0 +1,101 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { Icon } from 'astro-icon/components';
+
+const projects = [
+  {
+    title: 'Proyecto Profesional 1',
+    description: 'Descripción del proyecto profesional, tecnologías utilizadas y resultados obtenidos.',
+    tags: ['React', 'TypeScript', 'TailwindCSS'],
+    type: 'professional',
+  },
+  {
+    title: 'Proyecto Profesional 2',
+    description: 'Otro proyecto profesional con detalles sobre el desarrollo y las soluciones implementadas.',
+    tags: ['Vue', 'Node.js', 'PostgreSQL'],
+    type: 'professional',
+  },
+  {
+    title: 'Side Project 1',
+    description: 'Proyecto personal para explorar nuevas tecnologías y resolver problemas interesantes.',
+    tags: ['Astro', 'Svelte'],
+    link: 'https://github.com/crisconru',
+    type: 'side',
+  },
+  {
+    title: 'Side Project 2',
+    description: 'Herramienta open source para la comunidad de desarrolladores.',
+    tags: ['Python', 'FastAPI'],
+    link: 'https://github.com/crisconru',
+    type: 'side',
+  },
+];
+---
+
+<Layout title="Portfolio" description="Proyectos profesionales y personales de Cristóbal Contreras Rubio.">
+  <section class="section">
+    <div class="container">
+      <div class="max-w-4xl mx-auto">
+        <h1 class="text-4xl sm:text-5xl font-bold mb-4">Portfolio</h1>
+        <p class="text-lg text-[rgb(var(--color-text-muted))] mb-12">
+          Una selección de proyectos profesionales y personales en los que he trabajado.
+        </p>
+
+        <h2 class="text-2xl font-bold mb-6">Experiencia profesional</h2>
+        <div class="grid gap-6 mb-12">
+          {
+            projects
+              .filter((p) => p.type === 'professional')
+              .map((project) => (
+                <article class="p-6 bg-[rgb(var(--color-surface))] rounded-xl border border-[rgb(var(--color-border))]">
+                  <h3 class="font-semibold text-lg mb-2">{project.title}</h3>
+                  <p class="text-[rgb(var(--color-text-muted))] mb-4">{project.description}</p>
+                  <div class="flex flex-wrap gap-2">
+                    {project.tags.map((tag) => (
+                      <span class="px-2 py-1 text-xs font-medium bg-primary-100 dark:bg-primary-900/30 text-primary-700 dark:text-primary-300 rounded">
+                        {tag}
+                      </span>
+                    ))}
+                  </div>
+                </article>
+              ))
+          }
+        </div>
+
+        <h2 class="text-2xl font-bold mb-6">Side Projects</h2>
+        <div class="grid sm:grid-cols-2 gap-6">
+          {
+            projects
+              .filter((p) => p.type === 'side')
+              .map((project) => (
+                <article class="p-6 bg-[rgb(var(--color-surface))] rounded-xl border border-[rgb(var(--color-border))]">
+                  <div class="flex items-start justify-between mb-2">
+                    <h3 class="font-semibold text-lg">{project.title}</h3>
+                    {project.link && (
+                      <a
+                        href={project.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label={`Ver ${project.title} en GitHub`}
+                        class="p-1 text-[rgb(var(--color-text-muted))] hover:text-[rgb(var(--color-text))]"
+                      >
+                        <Icon name="lucide:github" class="w-5 h-5" />
+                      </a>
+                    )}
+                  </div>
+                  <p class="text-[rgb(var(--color-text-muted))] mb-4 text-sm">{project.description}</p>
+                  <div class="flex flex-wrap gap-2">
+                    {project.tags.map((tag) => (
+                      <span class="px-2 py-1 text-xs font-medium bg-primary-100 dark:bg-primary-900/30 text-primary-700 dark:text-primary-300 rounded">
+                        {tag}
+                      </span>
+                    ))}
+                  </div>
+                </article>
+              ))
+          }
+        </div>
+      </div>
+    </div>
+  </section>
+</Layout>

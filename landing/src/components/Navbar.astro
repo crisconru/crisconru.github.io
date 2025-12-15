@@ -1,0 +1,85 @@
+---
+import { Icon } from 'astro-icon/components';
+import ThemeToggle from './ThemeToggle.astro';
+
+interface Props {
+  currentPath: string;
+}
+
+const { currentPath } = Astro.props;
+
+const navLinks = [
+  { href: '/', label: 'Inicio', icon: 'lucide:home' },
+  { href: '/about', label: 'Sobre mí', icon: 'lucide:user' },
+  { href: '/blog', label: 'Blog', icon: 'lucide:book-open' },
+  { href: '/portfolio', label: 'Portfolio', icon: 'lucide:briefcase' },
+  { href: '/tips', label: 'Tips', icon: 'lucide:lightbulb' },
+  { href: '/contact', label: 'Contacto', icon: 'lucide:mail' },
+];
+
+function isActive(href: string, current: string): boolean {
+  if (href === '/') return current === '/';
+  return current.startsWith(href);
+}
+---
+
+<!-- Desktop Navbar: Top -->
+<nav
+  class="hidden md:flex fixed top-0 left-0 right-0 z-50 bg-[rgb(var(--color-bg))]/80 backdrop-blur-md border-b border-[rgb(var(--color-border))]"
+  aria-label="Navegación principal"
+>
+  <div class="container flex items-center justify-between h-16">
+    <div class="flex items-center gap-1">
+      {
+        navLinks.map((link) => (
+          <a
+            href={link.href}
+            class:list={['nav-link', { active: isActive(link.href, currentPath) }]}
+            aria-current={isActive(link.href, currentPath) ? 'page' : undefined}
+          >
+            {link.label}
+          </a>
+        ))
+      }
+    </div>
+    <ThemeToggle />
+  </div>
+</nav>
+
+<!-- Mobile Navbar: Bottom -->
+<nav
+  class="md:hidden fixed bottom-0 left-0 right-0 z-50 bg-[rgb(var(--color-bg))]/80 backdrop-blur-md border-t border-[rgb(var(--color-border))] safe-area-bottom"
+  aria-label="Navegación principal"
+>
+  <div class="flex items-center justify-between h-16 px-2">
+    <!-- Theme toggle at left (appears at right due to flex-row-reverse) -->
+    <ThemeToggle />
+
+    <!-- Nav links in reverse order (right to left for thumb accessibility) -->
+    <div class="flex items-center gap-1 flex-row-reverse overflow-x-auto">
+      {
+        navLinks.map((link) => (
+          <a
+            href={link.href}
+            class:list={[
+              'flex flex-col items-center gap-0.5 px-2 py-1 rounded-lg text-xs font-medium transition-colors min-w-[3.5rem]',
+              isActive(link.href, currentPath)
+                ? 'text-primary-600 dark:text-primary-400'
+                : 'text-[rgb(var(--color-text-muted))] hover:text-[rgb(var(--color-text))]',
+            ]}
+            aria-current={isActive(link.href, currentPath) ? 'page' : undefined}
+          >
+            <Icon name={link.icon} class="w-5 h-5" />
+            <span class="sr-only sm:not-sr-only">{link.label}</span>
+          </a>
+        ))
+      }
+    </div>
+  </div>
+</nav>
+
+<style>
+  .safe-area-bottom {
+    padding-bottom: env(safe-area-inset-bottom, 0);
+  }
+</style>

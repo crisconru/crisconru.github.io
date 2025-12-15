@@ -1,0 +1,36 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { Icon } from 'astro-icon/components';
+---
+
+<Layout title="Tips" description="Consejos y trucos sobre desarrollo, herramientas y productividad.">
+  <section class="section">
+    <div class="container">
+      <div class="max-w-3xl mx-auto text-center">
+        <h1 class="text-4xl sm:text-5xl font-bold mb-6">Tips</h1>
+
+        <div class="p-12 bg-[rgb(var(--color-surface))] rounded-xl border border-[rgb(var(--color-border))]">
+          <Icon name="lucide:lightbulb" class="w-12 h-12 mx-auto mb-4 text-primary-500" />
+
+          <p class="text-xl text-[rgb(var(--color-text-muted))] mb-4">
+            En construcción
+          </p>
+
+          <p class="text-[rgb(var(--color-text-muted))] mb-6">
+            Esta sección contendrá consejos y documentación técnica. Mientras tanto, puedes visitar mi repositorio actual:
+          </p>
+
+          <a
+            href="https://github.com/crisconru/tips"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn-primary inline-flex items-center gap-2"
+          >
+            <Icon name="lucide:github" class="w-5 h-5" />
+            Ver repositorio Tips
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+</Layout>

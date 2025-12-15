@@ -1,0 +1,38 @@
+---
+interface Props {
+  title: string;
+  subtitle?: string;
+  showCTA?: boolean;
+}
+
+const { title, subtitle, showCTA = false } = Astro.props;
+---
+
+<section class="section">
+  <div class="container">
+    <div class="max-w-3xl mx-auto text-center">
+      <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight mb-6">
+        {title}
+      </h1>
+
+      {
+        subtitle && (
+          <p class="text-lg sm:text-xl text-[rgb(var(--color-text-muted))] mb-8">{subtitle}</p>
+        )
+      }
+
+      {
+        showCTA && (
+          <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+            <a href="/contact" class="btn-primary">
+              Contactar
+            </a>
+            <a href="/portfolio" class="btn-secondary">
+              Ver proyectos
+            </a>
+          </div>
+        )
+      }
+    </div>
+  </div>
+</section>
